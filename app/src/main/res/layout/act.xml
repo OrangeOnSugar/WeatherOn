@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212F3C">
+
+    <TextView
+        android:id="@+id/citynameA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#273746"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ECF0F1"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/checkes"
+        android:onClick="click1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-42dp"
+        android:background="#273746"
+        android:text="+"
+        android:textColor="#ECF0F1"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/gradus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ECF0F1"
+        android:textSize="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/pogod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ECF0F1"
+        android:textSize="30dp"
+        android:layout_marginLeft="5dp"/>
+
+    <RelativeLayout
+        android:id="@+id/pek"
+        style="@style/forButtong"
+        android:layout_width="362dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/davlen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="#ECF0F1"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/vlazh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:textColor="#ECF0F1"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/veter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="90dp"
+            android:text=""
+            android:textColor="#ECF0F1"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

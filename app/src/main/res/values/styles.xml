@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#273746</item>
+        <item name="colorPrimaryDark">#273746</item>
+        <item name="colorAccent">#21618C</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#2E4053</item>
+    </style>
+    <style name="forButtong">
+        <item name="android:background">@drawable/sss</item>
+    </style>
+
+</resources>
